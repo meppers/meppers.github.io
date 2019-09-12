@@ -1,0 +1,35 @@
+a {
+    color: #57b2d0;
+}
+
+a:visited {
+    color: #57b2d0;
+}
+
+a:hover {
+    color: #57b2d0;
+}
+
+a:active {
+    color: #57b2d0;
+}
+
+.image {
+    margin-bottom: 20px;
+    height: 400px;
+}
+
+/* image zoom on hover */
+.img-hover-zoom {
+    overflow: hidden;
+}
+
+.img-hover-zoom img {
+    transition: transform .2s ease;
+}
+
+.img-hover-zoom:hover img {
+    transform: scale(1.1);
+}
+
+/* end image zoom on hover */
