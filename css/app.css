@@ -14,9 +14,46 @@ a:active {
     color: #57b2d0;
 }
 
+@font-face {
+    font-family: "Cocogoose Bold";
+    src: url("css/fonts/cocogoose_pro-trial-webfont.eot");
+    src:
+        url("css/fonts/cocogoose_pro-trial-webfont.woff") format("woff"),
+        url("css/fonts/cocogoose_pro-trial-webfont.svg#filename") format("svg");
+}
+
 .image {
     margin-bottom: 20px;
     height: 400px;
+}
+
+h1 {
+    font-family: 'Cocogoose', Arial, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 100pt;
+    /*    put the text in the center of the display*/
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    color: whitesmoke;
+
+}
+
+.heroGreeting {
+    height: 100vh;
+    text-align: center;
+    /*    gradient created with colorzilla.com/gradient-editor/*/
+    background: #6fed79;
+    background: -moz-linear-gradient(-45deg, #6fed79 0%, #39a844 78%, #359e40 100%);
+    background: -webkit-linear-gradient(-45deg, #6fed79 0%, #39a844 78%, #359e40 100%);
+    background: linear-gradient(135deg, #6fed79 0%, #39a844 78%, #359e40 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#6fed79', endColorstr='#359e40', GradientType=1);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 /* image zoom on hover */
